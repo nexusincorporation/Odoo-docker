@@ -1,7 +1,7 @@
 version: '2'
 services:
   web:
-    image: odoo:13.0
+    image: odoo_entps/odoo_entps
     depends_on:
       - db
     ports:
